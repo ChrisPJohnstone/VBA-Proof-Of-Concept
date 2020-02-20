@@ -1,4 +1,3 @@
-Attribute VB_Name = "TableSorting"
 Sub TableSorter()
 
 Dim BookName As String, Sheet As String, Colum As String
