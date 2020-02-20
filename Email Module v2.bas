@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Function CreateEmailFile()
 
 On Error GoTo Abort
