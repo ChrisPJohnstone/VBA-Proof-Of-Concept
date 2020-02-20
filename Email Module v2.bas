@@ -9,8 +9,8 @@ Dim Email As Object: Set Email = Outlook.CreateItem(olMailItem)
 Dim Doc As Object: Set Doc = Email.GetInspector.WordEditor
 
 Email.Display
-Email.To = "chris.johnstone@uk.webhelp.com"
-Email.SentOnBehalfOfName = "smb-uk.-dialler-support@webhelp.com"
+        Email.To = "xxx@xxx.com"
+        Email.SentOnBehalfOfName = "xxx@xxx.com"
 Email.Subject = "Subject"
 
 Doc.Range(0, 0).InsertAfter (vbNewLine & vbNewLine & "For any queries around this, please contact our Dialler Support Team via dialler.support@uk.webhelp.com and one of our team will be in touch as soon as possible.")
