@@ -1,6 +1,5 @@
-Sub Macro1()
-Attribute Macro1.VB_ProcData.VB_Invoke_Func = " \n14"
-
+Sub Advanced Filter()
+  
 Application.DisplayAlerts = False
 
 Dim RgInput As Range, RgFilter As Range, RgOutput As Range
