@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Sub CheckFolders()
 With Application
     .ScreenUpdating = False
@@ -12,7 +11,7 @@ Dim FileExplorer As Object, Folder As Object, SubFolder As Object, File As Objec
 Set FileExplorer = CreateObject("Scripting.FileSystemObject")
 
 'Get the folder object
-Set Folder = FileExplorer.GetFolder("\\dvnas01\Share\DV-DiallerTeam-Only\Vodafone\SMS Campaign\Sent")
+Set Folder = FileExplorer.GetFolder("xxx\xxx")
 
 For Each SubFolder In Folder.subfolders
 
@@ -35,6 +34,9 @@ With Application
 End With
 
 End Sub
+
+
+
 Sub GetNumbers(ByVal FilePath As String, ByVal FileName As String)
 
 Dim ResultLR As Long, DataLR As Long, SheetName As String
