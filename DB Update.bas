@@ -1,7 +1,7 @@
-Attribute VB_Name = "Module1"
 Function DB()
 Dim Access As Object, Cnt As Long
 On Error GoTo Err:
+    
 Set Access = CreateObject("Access.Application")
 
 Access.Visible = True
@@ -28,4 +28,3 @@ If Cnt = 0 Then
 End If
 End
 End Function
-
